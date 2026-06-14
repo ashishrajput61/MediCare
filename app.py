@@ -200,8 +200,8 @@ with st.sidebar:
             default_index=0,
             styles={
                 "container": {"padding": "0!important", "background-color": "transparent"},
-                "icon": {"color": "white", "font-size": "20px"},
-                "nav-link": {"color": "white", "font-size": "16px", "text-align": "left", "margin": "10px 0"},
+                "icon": {"color": "black", "font-size": "20px"},
+                "nav-link": {"color": "black", "font-size": "16px", "text-align": "left", "margin": "10px 0"},
                 "nav-link-selected": {"background-color": "rgba(255,255,255,0.2)"},
             }
         )
