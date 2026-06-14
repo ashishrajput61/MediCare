@@ -253,23 +253,7 @@ def dashboard_page():
     
     st.divider()
     
-    # Quick actions
-    st.subheader("🚀 Quick Actions")
-    quick_col1, quick_col2, quick_col3 = st.columns(3)
-    
-    with quick_col1:
-        if st.button("📅 Book Appointment", use_container_width=True):
-            pass
-    
-    with quick_col2:
-        if st.button("🩺 View Departments", use_container_width=True):
-            pass
-    
-    with quick_col3:
-        if st.button("💊 Browse Medicines", use_container_width=True):
-            pass
-    
-    st.divider()
+
     
     # Featured content
     st.subheader("ℹ️ Why Choose MediCare Hub?")
